@@ -5,7 +5,8 @@ import java.util.Map;
 
 public class Codifica21101366 implements Codifica{
 
-    private String tabela = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz .:úç";
+    private String tabela = 
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZÃÁÀÂÉÈÊÍÌÎÕÓÒÔÚÙÛÇ1234567890abcdefghijklmnopqrstuvwxyzãáàâéèêíìîõóòôúùûç .:'!@#$%¨&*()_+-[]{}~?;/\\|^,";
 
     private Map<Integer, Long> tabelaFib = new HashMap<>();
 
